@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   mounted() {
     this.onMounted();
@@ -13,6 +13,7 @@ export default {
     onMounted() {
       this.$on('onOpenCollapsible', () => {
         this.$children.forEach((collapsible) => {
+          // @ts-ignore
           collapsible.close();
         });
       });
