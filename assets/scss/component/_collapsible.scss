@@ -18,13 +18,10 @@
 
   &:hover,
   &.open {
-    background-color: $primary;
+    background-color: $secondary;
 
     h3 {
-      /*
-      background-clip: initial;
-      -webkit-text-fill-color: initial;
-      */
+      -webkit-text-fill-color: $white;
     }
 
     a {

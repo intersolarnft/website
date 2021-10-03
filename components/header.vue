@@ -8,9 +8,9 @@
             href="https://get.intersolar-nft.com"
             target="_blank"
             rel="noopener noreferrer"
-            class="btn btn-outline-primary"
+            class="btn btn-outline-primary d-none"
           >
-            Get your NTFs
+            Get your NFTs
           </a>
         </div>
       </div>

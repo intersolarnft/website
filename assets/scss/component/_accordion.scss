@@ -1,0 +1,13 @@
+.accordion {
+  .collapsible:first-child {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .collapsible:last-child {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .collapsible + .collapsible {
+    margin-top: -1px;
+  }
+}

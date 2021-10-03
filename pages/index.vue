@@ -6,14 +6,19 @@
   <div>
     <div class="section section-hero">
       <div class="container">
-        <div class="row">
+        <div ref="heroDecorator" class="decorator" />
+        <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
-            <img class="img-fluid" src="~assets/img/gas.png" />
+            <div class="hero-animation">
+              <img class="img-fluid img-planet" src="~assets/img/planet.png" />
+              <img class="img-fluid img-moon-1" src="~assets/img/moon-1.png" />
+              <img class="img-fluid img-moon-2" src="~assets/img/moon-2.png" />
+            </div>
           </div>
           <div class="col-lg-6 order-lg-1">
             <h1>Ready to explore?</h1>
             <p>
-              A digital universe made up of 2<sup>8</sup> planets using NFTs.
+              A digital universe made up of 502 planets and 9 suns using NFTs.
               Each one unique and a few even rare. Explore. Collect. Make them
               yours.
             </p>
@@ -21,13 +26,12 @@
               href="https://get.intersolar-nft.com"
               target="_blank"
               rel="noopener noreferrer"
-              class="btn btn-outline-primary"
+              class="btn btn-outline-primary d-none"
             >
               Get your NFTs
             </a>
           </div>
         </div>
-        <div class="decorator" />
       </div>
     </div>
 
@@ -80,7 +84,7 @@
             <ul class="list-unstyled lead-md checklist">
               <li>
                 <img src="~assets/img/check-circle.svg" />
-                Launch website and metaplex
+                Launch website and Metaplex
               </li>
               <li>
                 <img src="~assets/img/circle.svg" />
@@ -119,10 +123,67 @@
 
     <div class="section">
       <div class="container">
+        <h2>FAQ</h2>
         <Accordion>
           <Collapsible>
-            <template #label>Label</template>
-            <template #content>Text</template>
+            <template #label>How can I buy a planet?</template>
+            <template #content>
+              Planets can be bought with Solana through our Metaplex or through
+              one of the marketplaces we are listed on.
+            </template>
+          </Collapsible>
+          <Collapsible>
+            <template #label>Where can I buy a planet?</template>
+            <template #content>
+              New planets will always be available on our Metaplex first. We
+              will then make them available on other marketplaces (Digital Eyes,
+              Magic Eden, Salonart, Solsea) as soon as possible.
+            </template>
+          </Collapsible>
+          <Collapsible>
+            <template #label>When can I buy a planet?</template>
+            <template #content>
+              All planets of the first solar system will be available in our
+              Metaplex on October 6th.
+            </template>
+          </Collapsible>
+          <Collapsible>
+            <template #label>When will all planets be available?</template>
+            <template #content>
+              All planets will be released in editions (solar systems), starting
+              with a number of 2<sup>8</sup> planets in the first system, 2<sup
+                >7</sup
+              >
+              in the second system, and so on, as we travel farer into the void
+              of space. Each of these 502 planets and 9 suns will have unique
+              properties and are available only once.
+            </template>
+          </Collapsible>
+          <Collapsible>
+            <template #label>How many traits does a planet have?</template>
+            <template #content>
+              Planets can have up to 5 traits (surroundings, surface, natural
+              satellites, rings, and events). All trait variants have different
+              levels of rareness, so there will be combinations that are super
+              rare.
+            </template>
+          </Collapsible>
+          <Collapsible>
+            <template #label>
+              Do planets have secondary sale royalties?
+            </template>
+            <template #content>
+              Yes, royalties are set at 5% for secondary sales.
+            </template>
+          </Collapsible>
+          <Collapsible>
+            <template #label>
+              Am I the owner of the planet after buying?
+            </template>
+            <template #content>
+              Yes, full ownership of the token is transfered to the buyer after
+              sale.
+            </template>
           </Collapsible>
         </Accordion>
       </div>
@@ -139,7 +200,10 @@
             </p>
             <div class="row justify-content-center mt-5">
               <div class="d-flex justify-content-center col-md-auto">
-                <a class="btn btn-outline-primary btn-icon-left" href="#">
+                <a
+                  class="btn btn-outline-primary btn-icon-left"
+                  href="https://twitter.com/interSOLarNFT"
+                >
                   <img class="icon" src="~assets/img/twitter.svg" />
                   Follow us on Twitter
                 </a>
@@ -147,7 +211,10 @@
               <div
                 class="d-flex justify-content-center mt-3 mt-md-0 col-md-auto"
               >
-                <a class="btn btn-outline-primary btn-icon-left" href="#">
+                <a
+                  class="btn btn-outline-primary btn-icon-left"
+                  href="https://discord.gg/2dYczJsW8Q"
+                >
                   <img class="icon" src="~assets/img/discord.svg" />
                   Join us on Discord
                 </a>
@@ -159,3 +226,16 @@
     </div>
   </div>
 </template>
+
+<script lang="ts">
+import Vue from 'vue';
+export default Vue.extend({
+  mounted() {
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.pageYOffset;
+      this.$refs.heroDecorator.style.transform =
+        'translateY(' + scrollTop * 0.4 + 'px)';
+    });
+  },
+});
+</script>

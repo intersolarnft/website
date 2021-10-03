@@ -1,21 +1,28 @@
-.page-index {
-  .section-hero {
-    .decorator {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      z-index: -1;
-      width: 80vw;
-      height: 80vw;
-      background: linear-gradient(90deg, transparent, $primary);
-      /* stylelint-disable-next-line */
-      filter: blur(50px);
-      border-radius: 999px;
-      opacity: 0.2;
-      transform: translateX(-50%);
-    }
+@keyframes float-sin {
+  0% {
+    transform: translateY(-5px);
   }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
 
+@keyframes float-cos {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+.page-index {
   .checklist {
     li {
       display: flex;
@@ -36,6 +43,52 @@
 
   .icon-social {
     width: 64px;
+  }
+
+  .section-hero {
+    .decorator {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 80vw;
+      height: 80vw;
+      background: linear-gradient(90deg, transparent, $primary);
+      /* stylelint-disable-next-line */
+      filter: blur(50px);
+      border-radius: 999px;
+      opacity: 0.2;
+      transform: translateX(-50%);
+    }
+
+    .hero-animation {
+      padding-top: 100%;
+
+      img {
+        position: absolute;
+        top: 0;
+      }
+
+      .img-planet {
+        animation-name: float-sin;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+      }
+
+      .img-moon-1 {
+        animation-name: float-cos;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+      }
+
+      .img-moon-2 {
+        animation-name: float-cos;
+        animation-duration: 4s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+      }
+    }
   }
 }
 
