@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"https:\u002F\u002Fintersolarnft.github.io\u002Fwebsite\u002Fstatic\u002F1633264382",layout:"default",error:null,serverRendered:true,routePath:a,config:{_app:{basePath:a,assetsPath:a,cdnURL:"https:\u002F\u002Fintersolarnft.github.io\u002Fwebsite\u002F"}}}}("\u002F"));
