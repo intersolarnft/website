@@ -1,0 +1,23 @@
+{
+  "editor": {
+    "tabSize": 2,
+    "rulers": [
+      80
+    ],
+    "codeActionsOnSave": {
+      "source": {
+        "fixAll": {
+          "eslint": true,
+          "stylelint": true
+        }
+      }
+    },
+  },
+  "eslint": {
+    "validate": [
+      "javascript",
+      "typescript",
+      "vue"
+    ]
+  },
+}

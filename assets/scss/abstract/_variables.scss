@@ -1,0 +1,59 @@
+// Colors
+$color-dark-blue: #03010d;
+$color-pink: #b633aa;
+$color-purple: #4a2675;
+$color-white: #ffffff;
+$color-black: #000000;
+
+// App
+$header-height: 80px;
+$menu-button-weight: 3px;
+
+// Bootstrap
+// Color system
+$white: $color-white;
+$gray-800: $color-dark-blue; // dark
+$black: $color-black;
+
+$pink: $color-pink;
+$purple: $color-purple;
+
+$primary: $pink;
+$secondary: $purple;
+$dark: $gray-800;
+
+$theme-colors: (
+  'white': $white,
+  'black': $black,
+);
+
+// Options
+$enable-responsive-font-sizes: true;
+
+// Body
+$body-bg: $dark;
+$body-color: $white;
+
+// Typography
+$font-weight-regular: 400;
+$font-weight-bold: 600;
+
+$font-family-sans-serif: 'Metropolis', sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.4;
+$font-weight-base: $font-weight-regular;
+
+$h1-font-size: $font-size-base * 4.5;
+$h2-font-size: $font-size-base * 3;
+$h3-font-size: $font-size-base * 1;
+$h4-font-size: $font-size-base * 1;
+$h5-font-size: $font-size-base * 1;
+$h6-font-size: $font-size-base * 1;
+$headings-margin-bottom: 0.5em;
+$headings-font-weight: $font-weight-bold;
+$headings-line-height: 1.2;
+
+// Buttons
+$btn-border-width: 3px;
+$btn-font-weight: 700;
+$btn-border-radius: 999px;

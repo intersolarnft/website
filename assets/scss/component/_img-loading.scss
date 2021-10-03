@@ -1,0 +1,26 @@
+.img-loading {
+  position: relative;
+  min-width: 100px;
+  min-height: 100px;
+
+  .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  img:not(.spinner) {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+  }
+
+  &.is-loading {
+    background-color: $gray-400;
+
+    img:not(.spinner) {
+      opacity: 0;
+    }
+  }
+}

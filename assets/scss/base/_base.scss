@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#__nuxt,
+#__layout,
+.page {
+  height: 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-shrink: 0;
+  flex-grow: 1;
+
+  .section:first-child {
+    padding-top: 5rem;
+  }
+
+  @include media-breakpoint-up(xl) {
+    .section:first-child {
+      padding-top: 8rem;
+    }
+  }
+}

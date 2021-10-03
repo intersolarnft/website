@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Metropolis';
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/font/metropolis-regular.woff') format('woff'),
+    url('~assets/font/metropolis-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/font/metropolis-bold.woff') format('woff'),
+    url('~assets/font/metropolis-bold.woff2') format('woff2');
+}

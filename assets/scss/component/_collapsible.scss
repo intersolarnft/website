@@ -1,0 +1,44 @@
+.collapsible {
+  width: 100%;
+  padding: 1rem 2rem;
+  text-align: left;
+  background-color: transparent;
+  border: solid 1px $secondary;
+  transition: background-color 0.1s ease, color 0.1s ease;
+
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+
+  a {
+    transition: color 0.1s ease;
+  }
+
+  &:hover,
+  &.open {
+    background-color: $primary;
+
+    h3 {
+      /*
+      background-clip: initial;
+      -webkit-text-fill-color: initial;
+      */
+    }
+
+    a {
+      color: $color-white;
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.open {
+    .content {
+      max-height: 500px;
+    }
+  }
+}

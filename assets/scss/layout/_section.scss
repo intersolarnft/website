@@ -1,0 +1,15 @@
+.section {
+  padding: 3rem 0;
+}
+
+@include media-breakpoint-up(md) {
+  .section {
+    padding: 5rem 0;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .section {
+    padding: 8rem 0;
+  }
+}
