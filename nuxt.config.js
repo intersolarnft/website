@@ -5,9 +5,38 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Your NFT universe | Intersolar',
+    link: [
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: 'assets/img/apple-touch-icon.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: 'assets/img/favicon-32x32.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: 'assets/img/favicon-16x16.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: 'assets/img/favicon.ico',
+      },
+    ],
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        charset: 'utf-8',
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1',
+      },
       {
         hid: 'description',
         name: 'description',
