@@ -233,6 +233,7 @@ export default Vue.extend({
   mounted() {
     window.addEventListener('scroll', () => {
       const scrollTop = window.pageYOffset;
+      // @ts-ignore
       this.$refs.heroDecorator.style.transform =
         'translateY(' + scrollTop * 0.4 + 'px)';
     });
