@@ -60,6 +60,7 @@
     }
 
     .hero-animation {
+      position: relative;
       padding-top: 100%;
 
       img {
@@ -87,6 +88,30 @@
         animation-timing-function: ease;
         animation-iteration-count: infinite;
       }
+    }
+  }
+
+  .section-planets {
+    .card {
+      overflow: hidden;
+    }
+  }
+
+  .section-social {
+    position: relative;
+    overflow: hidden;
+
+    .decorator {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100vw;
+      height: 100vw;
+      background: linear-gradient(90deg, transparent, $primary);
+      /* stylelint-disable-next-line */
+      filter: blur(50px);
+      border-radius: 999px;
+      opacity: 0.2;
     }
   }
 }

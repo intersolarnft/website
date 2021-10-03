@@ -41,32 +41,57 @@
           <div class="col-lg-8">
             <h2>A brief history</h2>
             <p class="lead-md">
-              Everything significant in the world has a beginning - so does the
+              Everything significant in the world has a beginning – so does the
               universe. It describes the totality of space, time and all matter
               and energy contained therein. Our cosmos is the interSOLar,
-              wherein 8 galaxies filled with a diminishing number of
-              extraordinary and distinctive planetary constellations are
-              contained.
+              wherein 9 solar systems filled with a diminishing number of
+              extraordinary and distinctive planets are contained.
             </p>
             <p class="lead-md">
-              Each of these unique constellations exists as an NFT (Non-fungible
-              token) on the lightning fast Solana Blockchain waiting to
-              exclusivly be yours.
+              Each of these unique planets exists as an NFT (Non-fungible token)
+              on the lightning fast Solana Blockchain waiting to exclusivly be
+              yours.
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section section-planets">
       <div class="container">
         <h2>The planets</h2>
         <p>
-          The endless expanse of the Intersolar universe is filled with yawning
-          emptiness. But it is also inhabited by some celestial bodies. A total
-          of 28 unique planets are spread over 8 episodes to discover. Here you
-          can find some of our favorites from the current episode.
+          See some of our favourite planets of the latest released solar system.
         </p>
+        <div class="row mt-5">
+          <div class="mb-3 mb-md-0 col-md-4">
+            <div class="card">
+              <img class="img-fluid" src="~assets/img/planet-example-1.jpg" />
+            </div>
+          </div>
+          <div class="mb-3 mb-md-0 col-md-4">
+            <div class="card">
+              <img class="img-fluid" src="~assets/img/planet-example-2.jpg" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="img-fluid" src="~assets/img/planet-example-3.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-auto">
+            <a
+              class="btn btn-outline-primary"
+              href="https://get.intersolar-nft.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              See all planets
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -79,7 +104,7 @@
               We have big plans. But we only can reach our goals one step at a
               time and with your support. Share Intersolar with your friends and
               the world and be part of the growing universe. Our roadmap will be
-              updated every once in a while.
+              updated everytime we reach one of our goals.
             </p>
             <ul class="list-unstyled lead-md checklist">
               <li>
@@ -189,8 +214,9 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section section-social">
       <div class="container">
+        <div class="decorator" />
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <h2>Stay in touch</h2>
@@ -203,6 +229,8 @@
                 <a
                   class="btn btn-outline-primary btn-icon-left"
                   href="https://twitter.com/interSOLarNFT"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img class="icon" src="~assets/img/twitter.svg" />
                   Follow us on Twitter
@@ -214,6 +242,8 @@
                 <a
                   class="btn btn-outline-primary btn-icon-left"
                   href="https://discord.gg/2dYczJsW8Q"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img class="icon" src="~assets/img/discord.svg" />
                   Join us on Discord
