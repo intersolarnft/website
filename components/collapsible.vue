@@ -12,12 +12,14 @@
 </template>
 
 <script lang="ts">
-export default {
+import Vue from 'vue';
+export default Vue.extend({
   data() {
     return {
       isOpen: false,
     };
   },
+
   methods: {
     onClickButton() {
       if (!this.isOpen) {
@@ -26,9 +28,10 @@ export default {
 
       this.isOpen = !this.isOpen;
     },
+
     close() {
       this.isOpen = false;
     },
   },
-};
+});
 </script>

@@ -49,15 +49,14 @@
     .decorator {
       position: absolute;
       top: 0;
-      left: 50%;
-      width: 80vw;
-      height: 80vw;
+      left: 0;
+      width: 100vw;
+      height: 100vw;
       background: linear-gradient(90deg, transparent, $primary);
       /* stylelint-disable-next-line */
       filter: blur(50px);
       border-radius: 999px;
       opacity: 0.2;
-      transform: translateX(-50%);
     }
 
     .hero-animation {
@@ -97,7 +96,8 @@
     .section-hero {
       .decorator {
         left: -20%;
-        transform: none;
+        width: 80vw;
+        height: 80vw;
       }
     }
   }

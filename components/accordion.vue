@@ -5,19 +5,15 @@
 </template>
 
 <script lang="ts">
-export default {
+import Vue from 'vue';
+export default Vue.extend({
   mounted() {
-    this.onMounted();
-  },
-  methods: {
-    onMounted() {
-      this.$on('onOpenCollapsible', () => {
-        this.$children.forEach((collapsible) => {
-          // @ts-ignore
-          collapsible.close();
-        });
+    this.$on('onOpenCollapsible', () => {
+      this.$children.forEach((collapsible) => {
+        // @ts-ignore
+        collapsible.close();
       });
-    },
+    });
   },
-};
+});
 </script>
