@@ -18,9 +18,9 @@
           <div class="col-lg-6 order-lg-1">
             <h1>Ready to explore?</h1>
             <p>
-              A digital universe made up of 502 planets and 9 suns using NFTs.
-              Each one unique and a few even rare. Explore. Collect. Make them
-              yours.
+              A <b>digital universe</b> consisting of <b>10 galaxies</b> and a
+              total of 1023 planets including 10 suns represented as
+              <b>NFTs</b>.
             </p>
             <a
               href="https://get.intersolar-nft.com"
@@ -41,7 +41,7 @@
           <div class="col-lg-8">
             <h2>A brief history</h2>
             <p class="lead-md">
-              Everything significant in the world has a beginning – so does the
+              <b>Everything significant in the world has a beginning</b> – so
               universe. It describes the totality of space, time and all matter
               and energy contained therein. Our cosmos is the interSOLar,
               wherein 9 solar systems filled with a diminishing number of
@@ -49,8 +49,9 @@
             </p>
             <p class="lead-md">
               Each of these unique planets exists as an NFT (Non-fungible token)
-              on the lightning fast Solana Blockchain waiting to exclusivly be
-              yours.
+              on the lightning fast
+              <a href="https://solana.com/" target="_blank">Solana</a>
+              Blockchain waiting to exclusivly be yours.
             </p>
           </div>
         </div>
