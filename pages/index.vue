@@ -68,21 +68,15 @@
           See some of our favourite planets of the latest released solar system.
         </p>
         <div class="row mt-5">
-          <div class="mb-3 mb-md-0 col-md-4">
-            <div class="card">
-              <img class="img-fluid" src="~assets/img/planet-example-1.jpg" />
-            </div>
-          </div>
-          <div class="mb-3 mb-md-0 col-md-4">
-            <div class="card">
-              <img class="img-fluid" src="~assets/img/planet-example-2.jpg" />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img class="img-fluid" src="~assets/img/planet-example-3.jpg" />
-            </div>
-          </div>
+          <planet-card>
+            <img class="img-fluid" src="~assets/img/planet-example-1.jpg" />
+          </planet-card>
+          <planet-card>
+            <img class="img-fluid" src="~assets/img/planet-example-2.jpg" />
+          </planet-card>
+          <planet-card>
+            <img class="img-fluid" src="~assets/img/planet-example-3.jpg" />
+          </planet-card>
         </div>
         <div class="row mt-5 justify-content-center">
           <div class="col-auto">
