@@ -50,7 +50,12 @@
             <p class="lead-md">
               Each of these unique planets exists as an NFT (Non-fungible token)
               on the lightning fast
-              <a href="https://solana.com/" target="_blank">Solana</a>
+              <a
+                href="https://solana.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Solana</a
+              >
               Blockchain waiting to exclusivly be yours.
             </p>
           </div>
@@ -207,7 +212,7 @@
               Am I the owner of the planet after buying?
             </template>
             <template #content>
-              Yes, full ownership of the token is transfered to the buyer after
+              Yes, full ownership of the token is transferred to the buyer after
               sale.
             </template>
           </Collapsible>
