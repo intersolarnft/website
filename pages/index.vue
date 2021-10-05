@@ -42,9 +42,9 @@
             <h2>A brief history</h2>
             <p class="lead-md">
               <b>Everything significant in the world has a beginning</b> – so
-              universe. It describes the totality of space, time and all matter
-              and energy contained therein. Our cosmos is the interSOLar,
-              wherein 9 solar systems filled with a diminishing number of
+              does the universe. It describes the totality of space, time and
+              all matter all matter and energy contained therein. Our cosmos is
+              the wherein 9 solar systems filled with a diminishing number of
               extraordinary and distinctive planets are contained.
             </p>
             <p class="lead-md">
@@ -56,7 +56,7 @@
                 rel="noopener noreferrer"
                 >Solana</a
               >
-              Blockchain waiting to exclusivly be yours.
+              Blockchain waiting to exclusively be yours.
             </p>
           </div>
         </div>
