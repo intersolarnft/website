@@ -19,7 +19,9 @@
             <h1>Ready to explore?</h1>
             <p>
               A <b>digital universe</b> consisting of <b>solar systems</b>,
-              planets and suns represented as <b>NFTs</b>.
+              planets and suns represented as <b>NFTs</b>. Each one unique and a
+              few even rare.<br /><br />
+              Explore. Collect. Make them yours.
             </p>
             <a
               href="https://get.intersolar-nft.com"
@@ -42,8 +44,8 @@
             <p class="lead-md">
               <b>Everything significant in the world has a beginning</b> – so
               does the universe. It describes the totality of space, time and
-              all matter all matter and energy contained therein. Our cosmos is
-              the interSOLar, wherein solar systems and planets are contained.
+              all matter and energy contained therein. Our cosmos is the
+              interSOLar, wherein solar systems and planets are contained.
             </p>
             <p class="lead-md">
               Each of these unique planets exists as an NFT (Non-fungible token)
@@ -68,20 +70,23 @@
           See some of our favourite planets of the latest released solar system.
         </p>
         <div class="row mt-5">
-          <planet-card>
-            <img class="img-fluid" src="~assets/img/planet-example-1.jpg" />
-          </planet-card>
-          <planet-card>
+          <template>
+            <planet-card name="Mercury" price="1.0">
+              <img class="img-fluid" src="~assets/img/planet-example-1.jpg" />
+            </planet-card>
+          </template>
+
+          <planet-card name="Venus" price="1.5">
             <img class="img-fluid" src="~assets/img/planet-example-2.jpg" />
           </planet-card>
-          <planet-card>
+          <planet-card name="Mars" price="0.8">
             <img class="img-fluid" src="~assets/img/planet-example-3.jpg" />
           </planet-card>
         </div>
         <div class="row mt-5 justify-content-center">
           <div class="col-auto">
             <a
-              class="btn btn-outline-primary"
+              class="btn btn-outline-primary d-none"
               href="https://get.intersolar-nft.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -119,17 +124,16 @@
               </li>
               <li>
                 <img src="~assets/img/circle.svg" />
-                Build an interactive map to discover your own and collectible
-                NFTs. See which other planets are close to yours
+                An interactive map to discover your own and collectible NFTs.
+                See which other planets are close to yours
               </li>
               <li>
                 <img src="~assets/img/circle.svg" />
-                Build a candy machine where you can mint your own NFTs
+                A candy machine where you can mint your own NFTs
               </li>
               <li>
                 <img src="~assets/img/circle.svg" />
-                Build an interactive game that allows you to travel to other
-                planets
+                An interactive game that allows you to travel to other planets
               </li>
               <li>
                 <img src="~assets/img/circle.svg" />

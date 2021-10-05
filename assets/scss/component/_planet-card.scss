@@ -1,0 +1,29 @@
+.title {
+  display: none !important;
+  color: red !important;
+  visibility: hidden !important;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.price-chip {
+  font-size: 16px;
+  color: black;
+  background-color: #33c6dd;
+}
+
+.solana-logo {
+  height: 20px;
+  border-radius: 10px;
+}
