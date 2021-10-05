@@ -2,7 +2,7 @@
   <div class="mb-3 mb-md-0 col-md-4">
     <div class="card card-hover">
       <slot />
-      <div class="pt-3 pl-3">
+      <div class="pt-3 pl-3 d-none">
         <h4 class="heading">{{ name }}</h4>
         <br />
         <div class="badge badge-pill mb-3 price-chip px-2">
