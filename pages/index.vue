@@ -18,9 +18,8 @@
           <div class="col-lg-6 order-lg-1">
             <h1>Ready to explore?</h1>
             <p>
-              A <b>digital universe</b> consisting of <b>10 galaxies</b> and a
-              total of 1023 planets including 10 suns represented as
-              <b>NFTs</b>.
+              A <b>digital universe</b> consisting of <b>solar systems</b>,
+              planets and suns represented as <b>NFTs</b>.
             </p>
             <a
               href="https://get.intersolar-nft.com"
@@ -44,8 +43,7 @@
               <b>Everything significant in the world has a beginning</b> – so
               does the universe. It describes the totality of space, time and
               all matter all matter and energy contained therein. Our cosmos is
-              the wherein 9 solar systems filled with a diminishing number of
-              extraordinary and distinctive planets are contained.
+              the interSOLar, wherein solar systems and planets are contained.
             </p>
             <p class="lead-md">
               Each of these unique planets exists as an NFT (Non-fungible token)
@@ -108,7 +106,7 @@
             <h2>Our Roadmap</h2>
             <p class="mb-5">
               We have big plans. But we only can reach our goals one step at a
-              time and with your support. Share Intersolar with your friends and
+              time and with your support. Share interSOLar with your friends and
               the world and be part of the growing universe. Our roadmap will be
               updated everytime we reach one of our goals.
             </p>
@@ -127,24 +125,25 @@
               </li>
               <li>
                 <img src="~assets/img/circle.svg" />
-                Get listed and verified on Magic Eden marketplace
-              </li>
-              <li>
-                <img src="~assets/img/circle.svg" />
-                Get listed and verified on Salonart marketplace
-              </li>
-              <li>
-                <img src="~assets/img/circle.svg" />
-                Get listed and verified on Solsea marketplace
-              </li>
-              <li>
-                <img src="~assets/img/circle.svg" />
-                Collaboration with another Solana NFT project
-              </li>
-              <li>
-                <img src="~assets/img/circle.svg" />
                 Build an interactive map to discover your own and collectible
-                NFTs
+                NFTs. See which other planets are close to yours
+              </li>
+              <li>
+                <img src="~assets/img/circle.svg" />
+                Build a candy machine where you can mint your own NFTs
+              </li>
+              <li>
+                <img src="~assets/img/circle.svg" />
+                Build an interactive game that allows you to travel to other
+                planets
+              </li>
+              <li>
+                <img src="~assets/img/circle.svg" />
+                Get listed on various other marketplaces
+              </li>
+              <li>
+                <img src="~assets/img/circle.svg" />
+                Collaborations with other Solana NFT projects
               </li>
             </ul>
           </div>
@@ -157,37 +156,74 @@
         <h2>FAQ</h2>
         <Accordion>
           <Collapsible>
-            <template #label>How can I buy a planet?</template>
+            <template #label>What is interSOLar?</template>
             <template #content>
-              Planets can be bought with Solana through our Metaplex or through
-              one of the marketplaces we are listed on.
+              interSOLar is a digital universe consisting of planets
+              representing NFTs as images.
+            </template>
+          </Collapsible>
+          <Collapsible>
+            <template #label>What does NFT mean?</template>
+            <template #content>
+              NFT stands for
+              <a
+                href="https://en.wikipedia.org/wiki/Non-fungible_token"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Non-fungible token</a
+              >. Our NFTs are stored on Solana blockchain to provide proof of
+              ownership. The NFT images itself are stored permanently on the
+              "permaweb" using Arweave Blockchain.
+            </template>
+          </Collapsible>
+          <Collapsible>
+            <template #label>How can I buy a planet / NFT?</template>
+            <template #content>
+              Purchasing a planet is super easy. Connect your Solana wallet and
+              visit our
+              <a
+                href="https://get.intersolar-nft.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >store</a
+              >.<br /><br />
+              <h5 class="custom-heading">Step-By-Step Guide</h5>
+              <ol>
+                <li>
+                  Download the
+                  <a
+                    href="https://phantom.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Phantom wallet extension</a
+                  >
+                  for your browser (Google Chrome recommended)
+                </li>
+                <li>
+                  Buy Solana (SOL) on an exchange like Coinbase etc. and send it
+                  to your Phantom wallet Public Address.
+                </li>
+                <li>
+                  Connect your Phantom Wallet to our
+                  <a
+                    href="https://get.intersolar-nft.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >store</a
+                  >
+
+                  by clicking on the Connect button.
+                </li>
+                <li>Visit our store and buy a super rare planet.</li>
+              </ol>
             </template>
           </Collapsible>
           <Collapsible>
             <template #label>Where can I buy a planet?</template>
             <template #content>
-              New planets will always be available on our Metaplex first. We
-              will then make them available on other marketplaces (Digital Eyes,
+              New planets will always be available on our store first. We will
+              then make them available on other marketplaces (Digital Eyes,
               Magic Eden, Salonart, Solsea) as soon as possible.
-            </template>
-          </Collapsible>
-          <Collapsible>
-            <template #label>When can I buy a planet?</template>
-            <template #content>
-              All planets of the first solar system will be available in our
-              Metaplex on October 6th.
-            </template>
-          </Collapsible>
-          <Collapsible>
-            <template #label>When will all planets be available?</template>
-            <template #content>
-              All planets will be released in editions (solar systems), starting
-              with a number of 2<sup>8</sup> planets in the first system, 2<sup
-                >7</sup
-              >
-              in the second system, and so on, as we travel farer into the void
-              of space. Each of these 502 planets and 9 suns will have unique
-              properties and are available only once.
             </template>
           </Collapsible>
           <Collapsible>
@@ -204,7 +240,7 @@
               Do planets have secondary sale royalties?
             </template>
             <template #content>
-              Yes, royalties are set at 5% for secondary sales.
+              Yes, royalties are set at 7% for secondary sales.
             </template>
           </Collapsible>
           <Collapsible>

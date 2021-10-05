@@ -91,6 +91,12 @@
     }
   }
 
+  .custom-heading {
+    color: red !important;
+    background: none;
+    -webkit-text-fill-color: #ffffff;
+  }
+
   .section-planets {
     .card {
       overflow: hidden;
