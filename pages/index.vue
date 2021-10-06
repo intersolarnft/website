@@ -280,7 +280,7 @@
               >
                 <a
                   class="btn btn-outline-primary btn-icon-left"
-                  href="https://discord.gg/nmCBpgA9xt"
+                  href="https://discord.gg/XBGb9rhG4h"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
