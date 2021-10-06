@@ -281,7 +281,7 @@
               >
                 <a
                   class="btn btn-outline-primary btn-icon-left"
-                  href="https://discord.gg/2dYczJsW8Q"
+                  href="https://discord.gg/nmCBpgA9xt"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
