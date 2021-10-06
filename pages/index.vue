@@ -70,15 +70,14 @@
           See some of our favourite planets of the latest released solar system.
         </p>
         <div class="row mt-5">
-          <template>
-            <planet-card name="Mercury" price="1.0">
-              <img class="img-fluid" src="~assets/img/planet-example-1.jpg" />
-            </planet-card>
-          </template>
+          <planet-card name="Mercury" price="1.0">
+            <img class="img-fluid" src="~assets/img/planet-example-1.jpg" />
+          </planet-card>
 
           <planet-card name="Venus" price="1.5">
             <img class="img-fluid" src="~assets/img/planet-example-2.jpg" />
           </planet-card>
+
           <planet-card name="Mars" price="0.8">
             <img class="img-fluid" src="~assets/img/planet-example-3.jpg" />
           </planet-card>

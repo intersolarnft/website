@@ -25,7 +25,7 @@ export default Vue.extend({
     },
     price: {
       required: true,
-      type: Number,
+      type: String,
     },
   },
 });
