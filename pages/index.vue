@@ -19,8 +19,8 @@
             <h1>Ready to explore?</h1>
             <p>
               A <b>digital universe</b> consisting of <b>solar systems</b>,
-              planets and suns represented as <b>NFTs</b>. Each one unique and a
-              few even rare.<br /><br />
+              planets and suns represented as <b>NFTs</b>. Each one rare and a
+              few even rarer.<br /><br />
               Explore. Collect. Make them yours.
             </p>
             <a
