@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Your NFT universe | Intersolar',
+    title: 'A NFT universe | Intersolar',
     link: [
       {
         rel: 'apple-touch-icon',
@@ -40,7 +40,8 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Your NFT universe.',
+        content:
+          'Intersolar is a digital universe of solar systems with planets and suns represented as NFTs on the Solana blockchain.',
       },
     ],
   },
