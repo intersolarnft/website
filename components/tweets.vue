@@ -5,7 +5,7 @@
     </div>
 
     <div class="row tweets-row">
-      <div class="col-6">
+      <div class="col-md-6">
         <blockquote class="twitter-tweet" data-theme="dark">
           <p lang="en" dir="ltr">
             I think I need a lot of sol.<br />I need to turn my wallet into the
@@ -28,7 +28,7 @@
         </blockquote>
       </div>
 
-      <div class="col-6">
+      <div class="col-md-6">
         <blockquote class="twitter-tweet" data-theme="dark">
           <p lang="en" dir="ltr">
             (1/2) Was just gifted my own planet from the
