@@ -158,6 +158,46 @@
 
     <div class="section">
       <div class="container">
+        <h2>The Team</h2>
+        <div class="row">
+          <div class="mb-3 col-md-6">
+            <card-team
+              class="h-100"
+              :image-source="require('assets/img/ducati.png')"
+              title="Ducati"
+              position="Marketing"
+            />
+          </div>
+          <div class="mb-3 col-md-6">
+            <card-team
+              class="h-100"
+              :image-source="require('assets/img/ezra.png')"
+              title="Ezra"
+              position="Development"
+            />
+          </div>
+          <div class="mb-3 mb-md-0 col-md-6">
+            <card-team
+              class="h-100"
+              :image-source="require('assets/img/krios.png')"
+              title="Krios"
+              position="Development"
+            />
+          </div>
+          <div class="col-md-6">
+            <card-team
+              class="h-100"
+              :image-source="require('assets/img/onyx.png')"
+              title="Onyx"
+              position="Design"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
         <div class="row">
           <div class="col-6">
             <h2>See what others are saying</h2>
