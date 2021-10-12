@@ -158,6 +158,17 @@
 
     <div class="section">
       <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2>See what others are saying</h2>
+          </div>
+        </div>
+        <Tweets />
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
         <h2>FAQ</h2>
         <Accordion>
           <Collapsible>

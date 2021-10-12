@@ -1,0 +1,22 @@
+.tweets {
+  .loading-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    background-color: $black;
+    border-radius: 20px;
+  }
+
+  &.is-loading {
+    .loading-container {
+      display: flex;
+    }
+
+    .tweets-row {
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+}
