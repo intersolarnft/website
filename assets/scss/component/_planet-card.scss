@@ -4,15 +4,6 @@
   visibility: hidden !important;
 }
 
-.card {
-  transition: transform 0.2s;
-}
-
-.card:hover {
-  //cursor: pointer;
-  transform: scale(1.03);
-}
-
 .heading {
   font-size: 30px;
 }
