@@ -49,12 +49,6 @@
         </blockquote>
       </div>
     </div>
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-      @load="onLoadTwitterScript"
-    ></script>
   </div>
 </template>
 
@@ -66,6 +60,13 @@ export default Vue.extend({
     return {
       isLoading: true,
     };
+  },
+
+  mounted() {
+    const script = document.createElement('script');
+    script.setAttribute('src', 'https://platform.twitter.com/widgets.js');
+    script.addEventListener('load', this.onLoadTwitterScript);
+    document.head.appendChild(script);
   },
 
   methods: {

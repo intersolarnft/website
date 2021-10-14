@@ -15,6 +15,9 @@
 
     .tweets-row {
       position: absolute;
+      width: 0;
+      height: 0;
+      pointer-events: none;
       visibility: hidden;
       opacity: 0;
     }
