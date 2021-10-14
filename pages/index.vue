@@ -160,7 +160,7 @@
       <div class="container">
         <h2>The Team</h2>
         <div class="row">
-          <div class="mb-3 col-md-6">
+          <div class="mb-3 col-md-6 mb-lg-0 col-lg-3">
             <card-team
               class="h-100"
               :image-source="require('assets/img/ducati.png')"
@@ -168,7 +168,7 @@
               position="Marketing"
             />
           </div>
-          <div class="mb-3 col-md-6">
+          <div class="mb-3 col-md-6 mb-lg-0 col-lg-3">
             <card-team
               class="h-100"
               :image-source="require('assets/img/ezra.png')"
@@ -176,7 +176,7 @@
               position="Development"
             />
           </div>
-          <div class="mb-3 mb-md-0 col-md-6">
+          <div class="mb-3 mb-md-0 col-md-6 col-lg-3">
             <card-team
               class="h-100"
               :image-source="require('assets/img/krios.png')"
@@ -184,7 +184,7 @@
               position="Development"
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-lg-3">
             <card-team
               class="h-100"
               :image-source="require('assets/img/onyx.png')"
@@ -193,17 +193,6 @@
             />
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <h2>See what others are saying</h2>
-          </div>
-        </div>
-        <Tweets />
       </div>
     </div>
 
@@ -309,6 +298,17 @@
             </template>
           </Collapsible>
         </Accordion>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2>See what others are saying</h2>
+          </div>
+        </div>
+        <Tweets />
       </div>
     </div>
 
