@@ -1,0 +1,67 @@
+.slider-traits {
+  .btn-slider {
+    &:focus,
+    &.focus,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active {
+      box-shadow: none;
+    }
+  }
+
+  .btn-trait {
+    width: 100%;
+  }
+
+  .variant-text {
+    padding: 0 calc(50px + 1rem);
+  }
+
+  .variant-navigation {
+    position: relative;
+  }
+
+  .variant-navigation-container {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    pointer-events: none;
+  }
+
+  .img-variant {
+    border-radius: $card-border-radius;
+  }
+
+  .btn-variant {
+    pointer-events: auto;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .slider-traits {
+    .btn-trait {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 80px;
+      padding: 0;
+      line-height: 0;
+      pointer-events: auto;
+
+      img {
+        max-width: 32px;
+        max-height: 32px;
+      }
+    }
+
+    .trait-navigation {
+      position: absolute;
+      top: 50%;
+      z-index: 2;
+      width: calc(100% - #{$grid-gutter-width});
+      pointer-events: none;
+      transform: translateY(-50%);
+    }
+  }
+}

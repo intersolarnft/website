@@ -3,6 +3,7 @@
 
 // Vendor
 @import './vendor/bootstrap';
+@import './vendor/swiper';
 
 // Abstract
 @import './abstract/fonts';
@@ -18,6 +19,7 @@
 @import './component/collapsible';
 @import './component/img-loading';
 @import './component/planet-card';
+@import './component/slider-traits';
 @import './component/tweets';
 
 // Layout

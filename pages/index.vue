@@ -36,6 +36,26 @@
       </div>
     </div>
 
+    <!--
+    <div class="section">
+      <div class="container">
+        <h2>Every trait a treat</h2>
+        <p>
+          It's not only that we took a lot of care to make every planet look
+          stunning and harmonic. We also want to satisfy the collectors heart.
+          Just like a card game every celestial body comes with traits of
+          varying rarities. These rarities might foreshadow also the importance
+          of a planet in our upcoming phases. So stay tuned!
+        </p>
+        <div class="row">
+          <div class="col-12">
+            <slider-traits class="mt-lg-5" />
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
     <div class="section">
       <div class="container">
         <div class="row justify-content-center">
@@ -199,15 +219,15 @@
     <div class="section">
       <div class="container">
         <h2>FAQ</h2>
-        <Accordion>
-          <Collapsible>
+        <accordion>
+          <collapsible>
             <template #label>What is Intersolar?</template>
             <template #content>
               Intersolar is a digital universe of solar systems with planets and
               suns represented as NFTs on the Solana blockchain.
             </template>
-          </Collapsible>
-          <Collapsible>
+          </collapsible>
+          <collapsible>
             <template #label>What does NFT mean?</template>
             <template #content>
               NFT stands for
@@ -220,8 +240,8 @@
               of ownership. The NFT images itself are stored permanently on the
               »permaweb« using the Arweave Blockchain.
             </template>
-          </Collapsible>
-          <Collapsible>
+          </collapsible>
+          <collapsible>
             <template #label>How can I buy a planet / NFT?</template>
             <template #content>
               Purchasing a planet is super easy. Connect your Solana wallet and
@@ -262,16 +282,16 @@
                 <li>Click on »Expolore (mint) new planet«.</li>
               </ol>
             </template>
-          </Collapsible>
-          <Collapsible>
+          </collapsible>
+          <collapsible>
             <template #label>Where can I buy a planet?</template>
             <template #content>
               New planets are always available via our minting site. You can
               also trade them on various Solana marketplaces with other planet
               owners.
             </template>
-          </Collapsible>
-          <Collapsible>
+          </collapsible>
+          <collapsible>
             <template #label>How many traits does a planet have?</template>
             <template #content>
               Planets can have up to 5 traits (surroundings, surface, natural
@@ -279,16 +299,16 @@
               levels of rareness, so there will be combinations that are super
               rare.
             </template>
-          </Collapsible>
-          <Collapsible>
+          </collapsible>
+          <collapsible>
             <template #label>
               Do planets have secondary sale royalties?
             </template>
             <template #content>
               Yes, royalties are set at 7.5% for secondary sales.
             </template>
-          </Collapsible>
-          <Collapsible>
+          </collapsible>
+          <collapsible>
             <template #label>
               Am I the owner of the planet after buying?
             </template>
@@ -296,8 +316,8 @@
               Yes, full ownership of the token is transferred to the buyer after
               sale.
             </template>
-          </Collapsible>
-        </Accordion>
+          </collapsible>
+        </accordion>
       </div>
     </div>
 
@@ -308,7 +328,7 @@
             <h2>See what others are saying</h2>
           </div>
         </div>
-        <Tweets />
+        <tweets />
       </div>
     </div>
 
@@ -357,7 +377,9 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import sliderTraits from '~/components/slider-traits.vue';
 export default Vue.extend({
+  components: { sliderTraits },
   mounted() {
     window.addEventListener('scroll', () => {
       const scrollTop = window.pageYOffset;
