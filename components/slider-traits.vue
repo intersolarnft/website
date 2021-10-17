@@ -57,16 +57,32 @@
                     {{ traitIndex + 1 }}/{{ traits.length }} {{ trait.name }}
                   </h3>
                   <p v-if="trait.name === 'Surroundings'">
-                    Text about surroundings
+                    Our planets are surrounded by stars and colorful nebula.
+                    Some are silent witnesses of starshowers or might even be
+                    sucked into a black hole.
                   </p>
-                  <p v-if="trait.name === 'Surface'">Text about surfaces</p>
-                  <p v-if="trait.name === 'Rings'">Text about rings</p>
+                  <p v-if="trait.name === 'Surface'">
+                    There are four elements. Stone, sand, gas and water. These
+                    come in varying colors and also with their own surface
+                    texture.
+                  </p>
+                  <p v-if="trait.name === 'Rings'">
+                    Every particle coming by the immense mass of our planets is
+                    damned to draw it's circles in eternity. This trait varies
+                    in color and orientation.
+                  </p>
                   <p v-if="trait.name === 'Natural satellites'">
-                    Text about natural satellites
+                    Wouldn't it be sad if our planet had to be alone? With this
+                    trait they can get up to three moon buddies.
                   </p>
-                  <p v-if="trait.name === 'Events'">Text about events</p>
+                  <p v-if="trait.name === 'Events'">
+                    There are only a few choosen planets who are visited by one
+                    of our special events. These traits have some of the highest
+                    rarities of all and are the knight blow of a NFT.
+                  </p>
                   <swiper
                     :options="{
+                      spaceBetween: 15,
                       autoHeight: true,
                       navigation: {
                         prevEl: `.btn-variant-${traitIndex}-prev`,
@@ -94,7 +110,7 @@
                         <p>
                           <b>{{ variant.name }}</b>
                           <br />
-                          {{ variant.percentage }}%
+                          {{ variant.percentage.toFixed(2) }}%
                         </p>
                       </div>
                     </swiper-slide>
@@ -168,61 +184,277 @@ export default Vue.extend({
           variants: [
             {
               name: 'Space',
-              percentage: 5,
+              percentage: 30.57,
             },
             {
               name: 'Deep space',
-              percentage: 5,
+              percentage: 17.37,
             },
             {
               name: 'Infrared space',
-              percentage: 5,
+              percentage: 1.02,
             },
             {
               name: 'Shooting stars',
-              percentage: 5,
+              percentage: 4.06,
             },
             {
               name: 'Red and blue nebula',
-              percentage: 5,
+              percentage: 8.94,
             },
             {
               name: 'Purple and red nebula',
-              percentage: 5,
+              percentage: 8.94,
             },
             {
               name: 'Blue, yellow and red nebula',
-              percentage: 5,
+              percentage: 8.94,
             },
             {
               name: 'White, pink and blue nebula',
-              percentage: 5,
+              percentage: 8.94,
+            },
+            {
+              name: 'Blue and red nebula',
+              percentage: 8.94,
             },
             {
               name: 'Galaxies',
-              percentage: 5,
+              percentage: 2.03,
             },
             {
               name: 'Black hole',
-              percentage: 5,
+              percentage: 0.2,
             },
           ],
         },
         {
           name: 'Surface',
-          variants: [],
+          variants: [
+            {
+              name: 'Brown sand',
+              percentage: 7.72,
+            },
+            {
+              name: 'Blue sand',
+              percentage: 7.72,
+            },
+            {
+              name: 'Red sand',
+              percentage: 7.72,
+            },
+            {
+              name: 'Black sand',
+              percentage: 7.72,
+            },
+            {
+              name: 'Blue water',
+              percentage: 7.72,
+            },
+            {
+              name: 'Green water',
+              percentage: 7.72,
+            },
+            {
+              name: 'Pink water',
+              percentage: 7.72,
+            },
+            {
+              name: 'Gray water',
+              percentage: 7.72,
+            },
+            {
+              name: 'Turquoise gas',
+              percentage: 1.88,
+            },
+            {
+              name: 'Red gas',
+              percentage: 1.68,
+            },
+            {
+              name: 'Purple gas',
+              percentage: 1.88,
+            },
+            {
+              name: 'Green gas',
+              percentage: 1.88,
+            },
+            {
+              name: 'Gray rock',
+              percentage: 7.72,
+            },
+            {
+              name: 'Brown rock',
+              percentage: 7.72,
+            },
+            {
+              name: 'Red rock',
+              percentage: 7.72,
+            },
+            {
+              name: 'Blue rock',
+              percentage: 7.72,
+            },
+          ],
         },
         {
           name: 'Rings',
-          variants: [],
+          variants: [
+            {
+              name: 'Gray diagonal rings',
+              percentage: 8.13,
+            },
+            {
+              name: 'Gray vertical rings',
+              percentage: 8.13,
+            },
+            {
+              name: 'Blue diagonal rings',
+              percentage: 8.13,
+            },
+            {
+              name: 'Blue vertical rings',
+              percentage: 8.13,
+            },
+            {
+              name: 'Pink diagonal rings',
+              percentage: 8.13,
+            },
+            {
+              name: 'Pink vertical rings',
+              percentage: 8.13,
+            },
+            {
+              name: 'Golden diagonal rings',
+              percentage: 1.02,
+            },
+            {
+              name: 'Golden vertical rings',
+              percentage: 1.02,
+            },
+          ],
         },
         {
           name: 'Natural satellites',
-          variants: [],
+          variants: [
+            {
+              name: 'Big moon',
+              percentage: 10.16,
+            },
+            {
+              name: 'Medium moon',
+              percentage: 10.16,
+            },
+            {
+              name: 'Small moon',
+              percentage: 10.16,
+            },
+            {
+              name: 'Golden big moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Golden medium moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Golden small moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Big and medium moon',
+              percentage: 10.16,
+            },
+            {
+              name: 'Golden big and medium moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Big and golden medium moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Golden big and golden medium moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Medium and small moon',
+              percentage: 10.16,
+            },
+            {
+              name: 'Golden medium and small moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Medium and golden small moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Golden medium and golden small moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Big and small moon',
+              percentage: 10.16,
+            },
+            {
+              name: 'Golden big and small moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Big and golden small moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Golden big and golden small moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Big, medium and small moon',
+              percentage: 0.81,
+            },
+            {
+              name: 'Golden big, medium and small moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Big, golden medium and small moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Big, medium and golden small moon',
+              percentage: 0.61,
+            },
+            {
+              name: 'Golden big, golden medium and golden small moon',
+              percentage: 0.2,
+            },
+          ],
         },
         {
           name: 'Events',
-          variants: [],
+          variants: [
+            {
+              name: 'Single meteor',
+              percentage: 20.31,
+            },
+            {
+              name: 'Meteor shower',
+              percentage: 10.16,
+            },
+            {
+              name: 'Big cat',
+              percentage: 0.05,
+            },
+            {
+              name: 'Small cat',
+              percentage: 0.05,
+            },
+            {
+              name: 'Astronaut',
+              percentage: 0.05,
+            },
+          ],
         },
       ],
       selectedTrait: null,

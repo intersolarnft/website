@@ -16,12 +16,12 @@
             </div>
           </div>
           <div class="col-lg-6 order-lg-1">
-            <h1>Ready to explore?</h1>
+            <h1>More than fancy images.</h1>
             <p>
-              A <b>digital universe</b> of <b>solar systems</b> with planets and
-              suns represented as <b>NFTs</b>. Each one rare and a few even
-              rarer.<br /><br />
-              Explore. Collect. Make them yours.
+              Every Intersolar NFT has a <b>unique position</b> in our NFT
+              universe. You will <b>travel</b> from planet to planet,
+              <b>mine</b> resources and <b>build</b>
+              your space empire.
             </p>
             <a
               href="https://get.intersolar-nft.com"
@@ -30,87 +30,6 @@
               class="btn btn-outline-primary d-none"
             >
               Get your NFTs
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--
-    <div class="section">
-      <div class="container">
-        <h2>Every trait a treat</h2>
-        <p>
-          It's not only that we took a lot of care to make every planet look
-          stunning and harmonic. We also want to satisfy the collectors heart.
-          Just like a card game every celestial body comes with traits of
-          varying rarities. These rarities might foreshadow also the importance
-          of a planet in our upcoming phases. So stay tuned!
-        </p>
-        <div class="row">
-          <div class="col-12">
-            <slider-traits class="mt-lg-5" />
-          </div>
-        </div>
-      </div>
-    </div>
-    -->
-
-    <div class="section">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h2>A brief history</h2>
-            <p class="lead-md">
-              <b>Everything significant in the world has a beginning</b> – so
-              does the universe. It describes the totality of space, time and
-              all matter and energy contained therein. Our cosmos is the
-              intersolar, wherein solar systems with planets are contained.
-            </p>
-            <p class="lead-md">
-              Each of these suns and planets exists as an NFT (Non-fungible
-              token) on the lightning fast
-              <a
-                href="https://solana.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Solana</a
-              >
-              Blockchain waiting to be exclusively explored (minted) by you.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section section-planets">
-      <div class="container">
-        <h2>The planets</h2>
-        <p>
-          See some of our favourite planets of the latest released solar system.
-        </p>
-        <div class="row mt-5">
-          <planet-card name="Mercury" price="0">
-            <img class="img-fluid" src="~assets/img/planet-example-1.jpg" />
-          </planet-card>
-
-          <planet-card name="Venus" price="0">
-            <img class="img-fluid" src="~assets/img/planet-example-2.jpg" />
-          </planet-card>
-
-          <planet-card name="Mars" price="0">
-            <img class="img-fluid" src="~assets/img/planet-example-3.jpg" />
-          </planet-card>
-        </div>
-        <div class="row mt-5 justify-content-center">
-          <div class="col-auto">
-            <a
-              class="btn btn-outline-primary d-none"
-              href="https://get.intersolar-nft.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mint a planet
             </a>
           </div>
         </div>
@@ -165,12 +84,91 @@
                 <img src="~assets/img/circle.svg" />
                 <div>
                   <h3>Phase 4: Civilization</h3>
-                  <p>
-                    Enable resource mining and make intersolar travel available.
-                  </p>
+                  <p>Enable resource mining and make travel available.</p>
                 </div>
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>Every trait a treat</h2>
+        <p>
+          It's not only that we took a lot of care to make every planet look
+          stunning and harmonic. We also want to satisfy the collectors heart.
+          Just like a card game every celestial body comes with traits of
+          varying rarities. These rarities might foreshadow also the importance
+          of a planet in our upcoming phases. So stay tuned!
+        </p>
+        <div class="row">
+          <div class="col-12">
+            <slider-traits class="mt-lg-5" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <div class="section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2>A brief history</h2>
+            <p class="lead-md">
+              <b>Everything significant in the world has a beginning</b> – so
+              does the universe. It describes the totality of space, time and
+              all matter and energy contained therein. Our cosmos is the
+              intersolar, wherein solar systems with planets are contained.
+            </p>
+            <p class="lead-md">
+              Each of these suns and planets exists as an NFT (Non-fungible
+              token) on the lightning fast
+              <a
+                href="https://solana.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Solana</a
+              >
+              Blockchain waiting to be exclusively explored (minted) by you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <div class="section section-planets">
+      <div class="container">
+        <h2>The planets</h2>
+        <p>
+          See some of our favourite planets of the latest released solar system.
+        </p>
+        <div class="row mt-5">
+          <planet-card name="Mercury" price="0">
+            <img class="img-fluid" src="~assets/img/planet-example-1.jpg" />
+          </planet-card>
+
+          <planet-card name="Venus" price="0">
+            <img class="img-fluid" src="~assets/img/planet-example-2.jpg" />
+          </planet-card>
+
+          <planet-card name="Mars" price="0">
+            <img class="img-fluid" src="~assets/img/planet-example-3.jpg" />
+          </planet-card>
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-auto">
+            <a
+              class="btn btn-outline-primary d-none"
+              href="https://get.intersolar-nft.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mint a planet
+            </a>
           </div>
         </div>
       </div>
