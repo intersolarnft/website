@@ -275,9 +275,9 @@
                     >minting site</a
                   >
 
-                  by clicking on the »Connect« button.
+                  by clicking on the »Connect Wallet« button.
                 </li>
-                <li>Click on »Expolore (mint) new planet«.</li>
+                <li>Click on »Mint«.</li>
               </ol>
             </template>
           </collapsible>
