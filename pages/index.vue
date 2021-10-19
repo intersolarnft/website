@@ -24,12 +24,12 @@
               your space empire.
             </p>
             <a
-              href="https://get.intersolar-nft.com"
+              href="https://intersolar-nft.web.app"
               target="_blank"
               rel="noopener noreferrer"
-              class="btn btn-outline-primary d-none"
+              class="btn btn-outline-primary"
             >
-              Get your NFTs
+              Get your NFT
             </a>
           </div>
         </div>
@@ -144,26 +144,37 @@
       <div class="container">
         <h2>The planets</h2>
         <p>
-          See some of our favourite planets of the latest released solar system.
+          See some of our favourite planets available in the current presale of
+          solar system #1.
         </p>
         <div class="row mt-5">
-          <planet-card name="Mercury" price="0">
-            <img class="img-fluid" src="~assets/img/planet-example-1.jpg" />
-          </planet-card>
-
-          <planet-card name="Venus" price="0">
-            <img class="img-fluid" src="~assets/img/planet-example-2.jpg" />
-          </planet-card>
-
-          <planet-card name="Mars" price="0">
-            <img class="img-fluid" src="~assets/img/planet-example-3.jpg" />
-          </planet-card>
+          <div class="mb-3 mb-md-0 col-md-4">
+            <card-planet
+              name="#126"
+              price="0.3"
+              :image-source="require('assets/img/planets/126.jpg')"
+            />
+          </div>
+          <div class="mb-3 mb-md-0 col-md-4">
+            <card-planet
+              name="#132"
+              price="0.3"
+              :image-source="require('assets/img/planets/132.jpg')"
+            />
+          </div>
+          <div class="col-md-4">
+            <card-planet
+              name="#173"
+              price="0.3"
+              :image-source="require('assets/img/planets/173.jpg')"
+            />
+          </div>
         </div>
         <div class="row mt-5 justify-content-center">
           <div class="col-auto">
             <a
-              class="btn btn-outline-primary d-none"
-              href="https://get.intersolar-nft.com"
+              class="btn btn-outline-primary"
+              href="https://intersolar-nft.web.app"
               target="_blank"
               rel="noopener noreferrer"
             >

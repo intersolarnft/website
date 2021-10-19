@@ -8,12 +8,12 @@
         </div>
         <div class="col-auto">
           <a
-            href="https://get.intersolar-nft.com"
+            href="https://intersolar-nft.web.app"
             target="_blank"
             rel="noopener noreferrer"
-            class="btn btn-outline-primary d-none"
+            class="btn btn-outline-primary"
           >
-            Get your NFTs
+            Get your NFT
           </a>
         </div>
       </div>
