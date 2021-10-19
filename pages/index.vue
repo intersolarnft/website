@@ -38,6 +38,26 @@
 
     <div class="section">
       <div class="container">
+        <div class="alert alert-secondary text-center p-5">
+          <h2 class="mb-2">Presale 40% off</h2>
+          <p class="lead">
+            Dropping 100 of 1969 planets
+            <b>Wednesday, October 20th | 3am UTC</b>
+          </p>
+          <a
+            href="https://intersolar-nft.web.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Get your NFT
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <h2>Our Roadmap</h2>

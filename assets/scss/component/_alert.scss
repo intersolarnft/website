@@ -1,0 +1,9 @@
+.alert-secondary {
+  background: linear-gradient(
+    -45deg,
+    lighten($primary, 40%),
+    lighten($secondary, 40%)
+  );
+  border-color: $secondary;
+  box-shadow: 0 0 100px rgba($primary, 0.5);
+}
