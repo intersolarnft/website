@@ -224,7 +224,12 @@
               <div class="card-body">
                 <h3>Digital Eyes</h3>
                 <p>
-                  <a href="#" class="stretched-link text-white">
+                  <a
+                    href="https://digitaleyes.market/collections/Intersolar"
+                    class="stretched-link text-white"
+                    traget="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Go to marketplace
                   </a>
                 </p>
