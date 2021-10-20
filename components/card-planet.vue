@@ -13,7 +13,9 @@
             "
           >
             <img class="img-logo mr-2" src="~assets/img/solana-logo.png" />
-            {{ price }} SOL
+            <strike v-if="minted">{{ price }} SOL</strike>
+            <span v-else>{{ price }} SOL</span>
+            <span v-if="minted" class="ml-2">MINTED</span>
           </span>
         </div>
       </div>
@@ -37,6 +39,10 @@ export default Vue.extend({
     price: {
       required: true,
       type: String,
+    },
+    minted: {
+      type: Boolean,
+      default: false,
     },
   },
 });

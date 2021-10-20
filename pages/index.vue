@@ -24,18 +24,19 @@
               your space empire.
             </p>
             <a
-              href="https://intersolar-nft.web.app"
+              href="https://intersolar-nft.web.app/map"
               target="_blank"
               rel="noopener noreferrer"
               class="btn btn-outline-primary"
             >
-              Get your NFT
+              Go to Starmap
             </a>
           </div>
         </div>
       </div>
     </div>
 
+    <!--
     <div class="section">
       <div class="container">
         <div class="alert alert-secondary text-center p-5">
@@ -55,6 +56,7 @@
         </div>
       </div>
     </div>
+    -->
 
     <div class="section">
       <div class="container">
@@ -164,14 +166,15 @@
       <div class="container">
         <h2>The planets</h2>
         <p>
-          See some of our favourite planets available in the current presale of
-          solar system #1.
+          See some of our favourite planets from our last presale of solar
+          system #1.
         </p>
         <div class="row mt-5">
           <div class="mb-3 mb-md-0 col-md-4">
             <card-planet
               name="#126"
               price="0.3"
+              minted
               :image-source="require('assets/img/planets/126.jpg')"
             />
           </div>
@@ -179,6 +182,7 @@
             <card-planet
               name="#132"
               price="0.3"
+              minted
               :image-source="require('assets/img/planets/132.jpg')"
             />
           </div>
@@ -186,6 +190,7 @@
             <card-planet
               name="#173"
               price="0.3"
+              minted
               :image-source="require('assets/img/planets/173.jpg')"
             />
           </div>
@@ -194,12 +199,51 @@
           <div class="col-auto">
             <a
               class="btn btn-outline-primary"
-              href="https://intersolar-nft.web.app"
+              href="https://intersolar-nft.web.app/map"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Mint a planet
+              Go to Starmap
             </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section-planets">
+      <div class="container">
+        <h2>Trade your planets</h2>
+        <p>
+          We are verified on follwing NFT marketplaces, so you can trade your
+          planets with other Intersolarians.
+        </p>
+        <div class="row mt-5">
+          <div class="mb-3 mb-md-0 col-md-4">
+            <div class="card">
+              <img class="img-fluid" src="~assets/img/digital-eyes.jpg" />
+              <div class="card-body">
+                <h3>Digital Eyes</h3>
+                <p>
+                  <a href="#" class="stretched-link text-white">
+                    Go to marketplace
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-3 mb-md-0 col-md-4">
+            <div class="card h-100">
+              <div
+                class="
+                  card-body
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <p class="h3">More coming soon</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
