@@ -227,7 +227,7 @@
                   <a
                     href="https://digitaleyes.market/collections/Intersolar"
                     class="stretched-link text-white"
-                    traget="_blank"
+                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     Go to marketplace
