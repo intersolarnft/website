@@ -36,14 +36,13 @@
       </div>
     </div>
 
-    <!--
     <div class="section">
       <div class="container">
         <div class="alert alert-secondary text-center p-5">
-          <h2 class="mb-2">Presale 40% off</h2>
+          <h2 class="mb-2">Presale for 0.5 SOL</h2>
           <p class="lead">
-            Dropping 100 of 1969 planets
-            <b>Wednesday, October 20th | 3am UTC</b>
+            Dropping another 300 of 1969 planets
+            <b>Wednesday, October 27th | 2pm UTC</b>
           </p>
           <a
             href="https://intersolar-nft.web.app"
@@ -56,7 +55,6 @@
         </div>
       </div>
     </div>
-    -->
 
     <div class="section">
       <div class="container">
