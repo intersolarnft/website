@@ -42,6 +42,7 @@ $font-weight-regular: 400;
 $font-weight-bold: 600;
 
 $font-family-sans-serif: 'Metropolis', sans-serif;
+$font-family-monospace: 'Source Code Pro', monospace;
 $font-size-base: 1rem;
 $line-height-base: 1.4;
 $font-weight-base: $font-weight-regular;
@@ -55,6 +56,8 @@ $h6-font-size: $font-size-base * 1;
 $headings-margin-bottom: 0.5em;
 $headings-font-weight: $font-weight-bold;
 $headings-line-height: 1.2;
+
+$lead-font-weight: 400;
 
 $small-font-size: $font-size-base * 0.75;
 

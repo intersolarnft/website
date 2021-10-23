@@ -13,3 +13,11 @@
   src: url('~assets/font/metropolis-bold.woff') format('woff'),
     url('~assets/font/metropolis-bold.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/font/source-code-pro-bold.woff') format('woff'),
+    url('~assets/font/source-code-pro-bold.woff2') format('woff2');
+}

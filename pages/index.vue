@@ -38,12 +38,58 @@
 
     <div class="section">
       <div class="container">
-        <div class="alert alert-secondary text-center p-5">
+        <div class="alert alert-secondary text-center p-3 py-5 p-md-5">
           <h2 class="mb-2">Presale for 0.5 SOL</h2>
           <p class="lead">
             Dropping another 300 of 1969 planets
             <b>Wednesday, October 27th | 2pm UTC</b>
           </p>
+          <countdown
+            v-slot="{ days, hours, minutes, seconds }"
+            :time="countdownTime"
+            :transform="transformSlotProps"
+            tag="div"
+            class="countdown my-4"
+          >
+            <div class="row gutter-narrow justify-content-center">
+              <div class="col-auto">
+                <div class="counter">
+                  <div class="value">
+                    <span class="h2 mb-0 text-monospace">{{ days }}</span>
+                  </div>
+                  <span class="unit mt-2 mt-lg-1 ml-lg-2">Days</span>
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <div class="counter">
+                  <div class="value">
+                    <span class="h2 mb-0 text-monospace">{{ hours }}</span>
+                  </div>
+                  <span class="unit mt-2 mt-lg-1 ml-lg-2">Hours</span>
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <div class="counter">
+                  <div class="value">
+                    <span class="h2 mb-0 text-monospace">{{ minutes }}</span>
+                  </div>
+                  <span class="unit mt-2 mt-lg-1 ml-lg-2">Minutes</span>
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <div class="counter">
+                  <div class="value">
+                    <span class="h2 mb-0 text-monospace">{{ seconds }}</span>
+                  </div>
+                  <span class="unit mt-2 mt-lg-1 ml-lg-2">Seconds</span>
+                </div>
+              </div>
+            </div>
+          </countdown>
+          <p class="mb-4">left until drop.</p>
           <a
             href="https://intersolar-nft.web.app"
             target="_blank"
@@ -471,9 +517,16 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import sliderTraits from '~/components/slider-traits.vue';
+
 export default Vue.extend({
-  components: { sliderTraits },
+  computed: {
+    countdownTime() {
+      const now = new Date();
+      const newYear = new Date('2021-10-27T02:00:00');
+      return newYear.getTime() - now.getTime();
+    },
+  },
+
   mounted() {
     window.addEventListener('scroll', () => {
       const scrollTop = window.pageYOffset;
@@ -481,6 +534,20 @@ export default Vue.extend({
       this.$refs.heroDecorator.style.transform =
         'translateY(' + scrollTop * 0.4 + 'px)';
     });
+  },
+
+  methods: {
+    // @ts-ignore
+    transformSlotProps(props) {
+      const formattedProps = {};
+
+      Object.entries(props).forEach(([key, value]) => {
+        // @ts-ignore
+        formattedProps[key] = value < 10 ? `0${value}` : String(value);
+      });
+
+      return formattedProps;
+    },
   },
 });
 </script>
