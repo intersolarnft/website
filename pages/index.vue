@@ -50,6 +50,7 @@
             :transform="transformSlotProps"
             tag="div"
             class="countdown my-4"
+            @end="onEndCountdown"
           >
             <div class="row gutter-narrow justify-content-center">
               <div class="col-auto">
@@ -89,7 +90,8 @@
               </div>
             </div>
           </countdown>
-          <p class="mb-4">left until drop.</p>
+          <p v-if="!countdownHasEnded" class="mb-4">left until drop.</p>
+          <p v-else class="lead mb-4">Let's go! 🚀🚀🚀</p>
           <a
             href="https://intersolar-nft.web.app"
             target="_blank"
@@ -519,6 +521,12 @@
 import Vue from 'vue';
 
 export default Vue.extend({
+  data() {
+    return {
+      countdownHasEnded: false,
+    };
+  },
+
   computed: {
     countdownTime() {
       const now = new Date();
@@ -547,6 +555,10 @@ export default Vue.extend({
       });
 
       return formattedProps;
+    },
+
+    onEndCountdown() {
+      this.countdownHasEnded = true;
     },
   },
 });
