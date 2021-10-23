@@ -235,6 +235,24 @@
             </div>
           </div>
           <div class="mb-3 mb-md-0 col-md-4">
+            <div class="card">
+              <img class="img-fluid" src="~assets/img/grail-market.jpg" />
+              <div class="card-body">
+                <h3>Grail Market</h3>
+                <p>
+                  <a
+                    href="https://grail.market/#/collection/intersolar"
+                    class="stretched-link text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Go to marketplace
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-3 mb-md-0 col-md-4">
             <div class="card h-100">
               <div
                 class="
