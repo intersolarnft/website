@@ -58,7 +58,9 @@
                   <div class="value">
                     <span class="h2 mb-0 text-monospace">{{ days }}</span>
                   </div>
-                  <span class="unit mt-2 mt-lg-1 ml-lg-2">Days</span>
+                  <span class="unit mt-2 mt-lg-1 ml-lg-2">
+                    <small>Days</small>
+                  </span>
                 </div>
               </div>
 
@@ -67,7 +69,9 @@
                   <div class="value">
                     <span class="h2 mb-0 text-monospace">{{ hours }}</span>
                   </div>
-                  <span class="unit mt-2 mt-lg-1 ml-lg-2">Hours</span>
+                  <span class="unit mt-2 mt-lg-1 ml-lg-2">
+                    <small>Hours</small>
+                  </span>
                 </div>
               </div>
 
@@ -76,7 +80,9 @@
                   <div class="value">
                     <span class="h2 mb-0 text-monospace">{{ minutes }}</span>
                   </div>
-                  <span class="unit mt-2 mt-lg-1 ml-lg-2">Minutes</span>
+                  <span class="unit mt-2 mt-lg-1 ml-lg-2">
+                    <small>Minutes</small>
+                  </span>
                 </div>
               </div>
 
@@ -85,7 +91,9 @@
                   <div class="value">
                     <span class="h2 mb-0 text-monospace">{{ seconds }}</span>
                   </div>
-                  <span class="unit mt-2 mt-lg-1 ml-lg-2">Seconds</span>
+                  <span class="unit mt-2 mt-lg-1 ml-lg-2">
+                    <small>Seconds</small>
+                  </span>
                 </div>
               </div>
             </div>
