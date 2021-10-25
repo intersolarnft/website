@@ -538,8 +538,8 @@ export default Vue.extend({
   computed: {
     countdownTime() {
       const now = new Date();
-      const newYear = new Date('2021-10-27T14:00:00');
-      return newYear.getTime() - now.getTime();
+      const dropDate = new Date(Date.UTC(2021, 9, 27, 14, 0));
+      return dropDate.getTime() - now.getTime();
     },
   },
 
