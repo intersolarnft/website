@@ -29,7 +29,7 @@
               rel="noopener noreferrer"
               class="btn btn-outline-primary"
             >
-              Get your planet
+              Get your NFTs
             </a>
           </div>
         </div>
@@ -106,7 +106,7 @@
             rel="noopener noreferrer"
             class="btn btn-primary"
           >
-            Get your NFT
+            Get your NFTs
           </a>
         </div>
       </div>
@@ -281,7 +281,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              Get your planet
+              Get your NFTs
             </a>
           </div>
         </div>

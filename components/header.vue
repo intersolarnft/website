@@ -13,7 +13,7 @@
             rel="noopener noreferrer"
             class="btn btn-outline-primary"
           >
-            Get your planet
+            Get your NFTs
           </a>
         </div>
       </div>
