@@ -40,10 +40,8 @@
       <div class="container">
         <div class="alert alert-secondary text-center p-3 py-5 p-md-5">
           <h2 class="mb-2">Presale for 0.5 SOL</h2>
-          <p class="lead">
-            Dropping another 300 of 1969 planets
-            <b>Wednesday, October 27th | 2pm UTC</b>
-          </p>
+          <p class="lead">Dropping another 300 of 1969 planets.</p>
+          <!--
           <countdown
             v-slot="{ days, hours, minutes, seconds }"
             :time="countdownTime"
@@ -100,6 +98,7 @@
           </countdown>
           <p v-if="!countdownHasEnded" class="mb-4">left until drop.</p>
           <p v-else class="lead mb-4">Let's go! 🚀🚀🚀</p>
+          -->
           <a
             href="https://intersolar-nft.web.app"
             target="_blank"
