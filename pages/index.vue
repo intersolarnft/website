@@ -132,7 +132,7 @@
                   <h3>Phase 1</h3>
                   <ul>
                     <li>Mint solar system #1</li>
-                    <li>Introduce interactive featrues like starmap</li>
+                    <li>Introduce interactive features like starmap</li>
                     <li>Polish starmap features</li>
                     <li>
                       Establish ranking of planets based on rarity, and number
@@ -174,7 +174,6 @@
                       boost rarity values of planets and empires
                     </li>
                     <li>Enable building of clans and add clan ranking</li>
-                    <li>Mint space ships</li>
                   </ul>
                 </div>
               </li>
