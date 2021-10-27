@@ -8,12 +8,12 @@
         </div>
         <div class="col-auto">
           <a
-            href="https://intersolar-nft.web.app/map"
+            href="https://intersolar-nft.web.app"
             target="_blank"
             rel="noopener noreferrer"
             class="btn btn-outline-primary"
           >
-            Go to Starmap
+            Get your planet
           </a>
         </div>
       </div>

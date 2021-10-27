@@ -24,12 +24,12 @@
               your space empire.
             </p>
             <a
-              href="https://intersolar-nft.web.app/map"
+              href="https://intersolar-nft.web.app"
               target="_blank"
               rel="noopener noreferrer"
               class="btn btn-outline-primary"
             >
-              Go to Starmap
+              Get your planet
             </a>
           </div>
         </div>
@@ -129,38 +129,65 @@
                 -->
                 <img src="~assets/img/circle.svg" />
                 <div>
-                  <h3>Phase 1: Genesis</h3>
-                  <p>
-                    Explore (mint) celestial objects and make them visible on
-                    the starmap.
-                  </p>
+                  <h3>Phase 1</h3>
+                  <ul>
+                    <li>Mint Solar System 1</li>
+                    <li>Introduce interactive Featrues like Starmap</li>
+                    <li>Polish Starmap</li>
+                    <li>
+                      Establish ranking of planets based on rarity, and number
+                      of planets
+                    </li>
+                  </ul>
                 </div>
               </li>
               <li>
                 <img src="~assets/img/circle.svg" />
                 <div>
-                  <h3>Phase 2: Departure</h3>
-                  <p>
-                    Build (mint) spaceships and spacestations for traveling
-                    between celestial objects.
-                  </p>
+                  <h3>Phase 2</h3>
+                  <ul>
+                    <li>Link Twitter handle to Wallet adress</li>
+                    <li>
+                      Include biggest owned planet cluster into ranking system
+                      calculation
+                    </li>
+                  </ul>
                 </div>
               </li>
               <li>
                 <img src="~assets/img/circle.svg" />
                 <div>
-                  <h3>Phase 3: A new economy</h3>
-                  <p>
-                    Introduce the intersolar currency and make trading
-                    available.
-                  </p>
+                  <h3>Phase 3</h3>
+                  <ul>
+                    <li>Mint Space ships</li>
+                    <li>Place spaceships on starmap and move them around</li>
+                  </ul>
                 </div>
               </li>
               <li>
                 <img src="~assets/img/circle.svg" />
                 <div>
-                  <h3>Phase 4: Civilization</h3>
-                  <p>Enable resource mining and make travel available.</p>
+                  <h3>Phase 4</h3>
+                  <ul>
+                    <li>
+                      Mint Additional Space station and planet addons that will
+                      boost rarity values of planets and empires
+                    </li>
+                    <li>Enable building of clans and add clan ranking</li>
+                    <li>Mint Space ships</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <img src="~assets/img/circle.svg" />
+                <div>
+                  <h3>Phase 5</h3>
+                  <ul>
+                    <li>
+                      Enable Minting of resources based on the planets you are
+                      holding
+                    </li>
+                  </ul>
                 </div>
               </li>
             </ul>
@@ -220,32 +247,29 @@
       <div class="container">
         <h2>The planets</h2>
         <p>
-          See some of our favourite planets from our last presale of solar
+          See some of our favourite planets of the upcoming presale of solar
           system #1.
         </p>
         <div class="row mt-5">
           <div class="mb-3 mb-md-0 col-md-4">
             <card-planet
-              name="#126"
-              price="0.3"
-              minted
-              :image-source="require('assets/img/planets/126.jpg')"
+              name="#202"
+              price="0.5"
+              :image-source="require('assets/img/planets/202.jpg')"
             />
           </div>
           <div class="mb-3 mb-md-0 col-md-4">
             <card-planet
-              name="#132"
-              price="0.3"
-              minted
-              :image-source="require('assets/img/planets/132.jpg')"
+              name="#431"
+              price="0.5"
+              :image-source="require('assets/img/planets/431.jpg')"
             />
           </div>
           <div class="col-md-4">
             <card-planet
-              name="#173"
-              price="0.3"
-              minted
-              :image-source="require('assets/img/planets/173.jpg')"
+              name="#447"
+              price="0.5"
+              :image-source="require('assets/img/planets/447.jpg')"
             />
           </div>
         </div>
@@ -253,11 +277,11 @@
           <div class="col-auto">
             <a
               class="btn btn-outline-primary"
-              href="https://intersolar-nft.web.app/map"
+              href="https://intersolar-nft.web.app"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Go to Starmap
+              Get your planet
             </a>
           </div>
         </div>
