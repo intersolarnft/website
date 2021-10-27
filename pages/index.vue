@@ -131,9 +131,9 @@
                 <div>
                   <h3>Phase 1</h3>
                   <ul>
-                    <li>Mint Solar System 1</li>
-                    <li>Introduce interactive Featrues like Starmap</li>
-                    <li>Polish Starmap</li>
+                    <li>Mint solar system #1</li>
+                    <li>Introduce interactive featrues like starmap</li>
+                    <li>Polish starmap features</li>
                     <li>
                       Establish ranking of planets based on rarity, and number
                       of planets
@@ -146,7 +146,7 @@
                 <div>
                   <h3>Phase 2</h3>
                   <ul>
-                    <li>Link Twitter handle to Wallet adress</li>
+                    <li>Link Twitter handle to wallet address</li>
                     <li>
                       Include biggest owned planet cluster into ranking system
                       calculation
@@ -159,7 +159,7 @@
                 <div>
                   <h3>Phase 3</h3>
                   <ul>
-                    <li>Mint Space ships</li>
+                    <li>Mint space ships</li>
                     <li>Place spaceships on starmap and move them around</li>
                   </ul>
                 </div>
@@ -170,11 +170,11 @@
                   <h3>Phase 4</h3>
                   <ul>
                     <li>
-                      Mint Additional Space station and planet addons that will
+                      Mint additional space station and planet addons that will
                       boost rarity values of planets and empires
                     </li>
                     <li>Enable building of clans and add clan ranking</li>
-                    <li>Mint Space ships</li>
+                    <li>Mint space ships</li>
                   </ul>
                 </div>
               </li>
@@ -184,7 +184,7 @@
                   <h3>Phase 5</h3>
                   <ul>
                     <li>
-                      Enable Minting of resources based on the planets you are
+                      Enable minting of resources based on the planets you are
                       holding
                     </li>
                   </ul>
