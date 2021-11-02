@@ -489,6 +489,30 @@
               sale.
             </template>
           </collapsible>
+          <collapsible>
+            <template #label>
+              Is every planet unique?
+            </template>
+            <template #content>
+              While the absolute majority of our planets are unique, there are some less rare ones that can be visually identical.
+              We thought of the planets a bit like cards from a trading card game.
+              In Pokemon, there are hundreds of common Pikachu cards but only one shiny Charizard. 
+              With the implementation of a game in mind, it can even make sense to have the same trait combinations multiple times.
+              All planets also differ by position. This will also play a bigger role in the future. 
+            </template>
+          </collapsible>
+           <collapsible>
+            <template #label>
+              Why is my planet not verified on Digital Eyes?
+            </template>
+            <template #content>
+            We are thinking about verifying the planets from 200 upwards only after the main mint.
+            We're not doing this to upset you, but because we think it's best for the project.
+            Since we don't know yet how long it will take until our community is big enough to start the main mint, this is the only way we can guarantee a stable floor.
+            We had the chance to talk to some people from the NFT scene who also advised us to do this. 
+            We hope you can understand our decision. Our goal is to have a successful project in the long run and therefore a benefit for all NFT holders.
+            </template>
+          </collapsible>
         </accordion>
       </div>
     </div>
