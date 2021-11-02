@@ -13,7 +13,7 @@
             rel="noopener noreferrer"
             class="btn btn-outline-primary"
           >
-            Get your NFTs
+          Go to starmap           
           </a>
         </div>
       </div>
