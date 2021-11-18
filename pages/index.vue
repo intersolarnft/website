@@ -352,15 +352,7 @@
     <div class="section">
       <div class="container">
         <h2>The Team</h2>
-        <div class="row">
-          <div class="mb-3 col-md-6 mb-lg-0 col-lg-3">
-            <card-team
-              class="h-100"
-              :image-source="require('assets/img/ducati.png')"
-              title="Ducati"
-              position="Marketing"
-            />
-          </div>
+        <div class="row d-flex justify-content-center">
           <div class="mb-3 col-md-6 mb-lg-0 col-lg-3">
             <card-team
               class="h-100"
@@ -377,12 +369,30 @@
               position="Development"
             />
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div class="mb-3 mb-md-0 col-md-6 col-lg-3">
+            <card-team
+              class="h-100"
+              :image-source="require('assets/img/bort.png')"
+              title="Bort"
+              position="Development"
+            />
+          </div>
+        </div>
+        <div class="row mt-3 d-flex justify-content-center">
+          <div class="mb-3 col-md-6 mb-lg-0 col-lg-3">
             <card-team
               class="h-100"
               :image-source="require('assets/img/onyx.png')"
               title="Onyx"
               position="Design"
+            />
+          </div>
+          <div class="mb-3 col-md-6 mb-lg-0 col-lg-3">
+            <card-team
+              class="h-100"
+              :image-source="require('assets/img/ducati.png')"
+              title="Ducati"
+              position="Marketing"
             />
           </div>
         </div>
